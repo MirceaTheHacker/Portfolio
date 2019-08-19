@@ -7,14 +7,10 @@ class Landing extends Component {
     return (
       <div>
         <Grid className="landing-grid">
-          <Cell col={12}>
-            <img
-              style={{ height: "40vw", marginTop: "0px" }}
-              src={picCircled}
-              alt="avatar"
-              className="avatar-img"
-            />
-
+          <Cell col={6}>
+            <img src={picCircled} alt="avatar" className="avatar-img" />
+          </Cell>
+          <Cell col={6}>
             <div className="banner-text">
               <h1>Unity 3D Developer</h1>
               <hr />
