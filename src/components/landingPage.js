@@ -9,7 +9,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              style={{ height: "40vw" }}
+              style={{ height: "40vw", marginTop: "0px" }}
               src={picCircled}
               alt="avatar"
               className="avatar-img"

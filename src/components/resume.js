@@ -17,7 +17,7 @@ class Resume extends Component {
               <img
                 src={picCircled}
                 alt="avatar"
-                style={{ height: "400px", allign: "left", paddingLeft: "0px" }}
+                style={{ height: "40vw", allign: "left", paddingLeft: "0px" }}
               />
             </div>
             <h2 style={{ paddingTop: "0px" }}>Matei Mircea</h2>
