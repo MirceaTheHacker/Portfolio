@@ -2,13 +2,12 @@ import React from "react";
 import "./App.css";
 import { Layout, Header, Navigation, Content, Drawer } from "react-mdl";
 import Main from "./components/main";
-import { Link, BrowserRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
-    // <BrowserRouter basename={process.env.PUBLIC_URL}>
     <div>
-      <Layout className="body">
+      <Layout>
         <Header
           className="header-color"
           title={
@@ -27,12 +26,7 @@ function App() {
           scroll
         >
           <Navigation>
-            <Link
-              // basename={process.env.PUBLIC_URL}
-              to="/resume"
-              className="nav-bar"
-              style={{ fontSize: "2em" }}
-            >
+            <Link to="/resume" className="nav-bar" style={{ fontSize: "2em" }}>
               Resume
             </Link>
             {/* <Link to="/aboutme" className="nav-bar" style={{ fontSize: "2em" }}>
@@ -70,7 +64,6 @@ function App() {
         </Content>
       </Layout>
     </div>
-    // </BrowserRouter>
   );
 }
 

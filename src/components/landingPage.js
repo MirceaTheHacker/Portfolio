@@ -5,11 +5,11 @@ import picCircled from "../images/picCircled.png";
 class Landing extends Component {
   render() {
     return (
-      <div style={{ width: "%100", margin: "auto" }}>
+      <div>
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              style={{ height: "400px" }}
+              style={{ height: "40vw" }}
               src={picCircled}
               alt="avatar"
               className="avatar-img"
