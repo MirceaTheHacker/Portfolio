@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div>
-        <Layout className="body">
+        <Layout>
           <Header
             className="header-color"
             title={
