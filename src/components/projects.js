@@ -10,6 +10,7 @@ import {
   Button,
   CardText
 } from "react-mdl";
+// import Game from "./game";
 
 class Projects extends Component {
   constructor(props) {
@@ -21,88 +22,101 @@ class Projects extends Component {
     switch (this.state.activeTab) {
       case 0:
         return (
-          <div
-            className="projects-grid"
-            style={{
-              display: "flex",
-              flexWrap: "wrap",
-              textAlign: "center",
-              marginLeft: "auto",
-              marginRight: "auto",
-              justifyContent: "center",
-              width: "75%"
-            }}
-          >
-            {/*Unity Project #1 */}
-            <Card shadow={5} className="card">
-              <CardTitle
-                style={{
-                  color: "#fff",
-                  height: "200px",
-                  background:
-                    "url(https://i.udemycdn.com/course/750x422/1210008_6859.jpg) center / cover"
-                }}
-              >
-                Crabbo Stabbo
-              </CardTitle>
-              <CardText style={{ height: "10em" }}>
-                It is the year 2023, humanity kept on fishing and consuming
-                crabs until all species became extinct, or so everyone thought.
-                The main character is Mr. Crabbo Stabbo, the last crab on earth.
-                Help him make justice and defeat the chefs trying to cook him
-                up.
-              </CardText>
-              <CardActions border>
-                <a
-                  href="https://github.com/MirceaTheHacker/CrabboStabbo"
-                  rel="noopener noreferrer"
-                  target="_blank"
+          <div style={{ textAlign: "center" }}>
+            <div
+              className="projects-grid"
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                textAlign: "center",
+                marginLeft: "auto",
+                marginRight: "auto",
+                justifyContent: "center",
+                width: "75%"
+              }}
+            >
+              {/*Unity Project #1 */}
+              <Card shadow={5} className="card">
+                <CardTitle
+                  style={{
+                    color: "#fff",
+                    height: "200px",
+                    background:
+                      "url(https://i.udemycdn.com/course/750x422/1210008_6859.jpg) center / cover"
+                  }}
                 >
-                  <Button colored>GitHub</Button>
-                </a>
-                <a
-                  href="https://mateimircea.itch.io/crabbo-stabbo"
-                  rel="noopener noreferrer"
-                  target="_blank"
+                  Crabbo Stabbo
+                </CardTitle>
+                <CardText style={{ height: "8em" }}>
+                  It is the year 2023, humanity kept on fishing and consuming
+                  crabs until all species became extinct, or so everyone
+                  thought. The main character is Mr. Crabbo Stabbo, the last
+                  crab on earth. Help him make justice and defeat the chefs
+                  trying to cook him up.
+                </CardText>
+                <CardActions border>
+                  <a
+                    href="https://github.com/MirceaTheHacker/CrabboStabbo"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <Button colored>GitHub</Button>
+                  </a>
+                  <a
+                    href="https://mateimircea.itch.io/crabbo-stabbo"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <Button colored>Live Demo</Button>
+                  </a>
+                </CardActions>
+              </Card>
+              {/*Unity Project #2 */}
+              <Card shadow={5} className="card">
+                <CardTitle
+                  style={{
+                    color: "#fff",
+                    height: "200px",
+                    background:
+                      "url(https://i.udemycdn.com/course/750x422/1210008_6859.jpg) center / cover"
+                  }}
                 >
-                  <Button colored>Live Demo</Button>
-                </a>
-              </CardActions>
-            </Card>
-            {/*Unity Project #2 */}
-            <Card shadow={5} className="card">
-              <CardTitle
-                style={{
-                  color: "#fff",
-                  height: "200px",
-                  background:
-                    "url(https://i.udemycdn.com/course/750x422/1210008_6859.jpg) center / cover"
-                }}
-              >
-                Crazy Taxi Drive
-              </CardTitle>
-              <CardText style={{ height: "10em" }}>
-                A 2D game made in Unity with a team of two developers where you
-                are in control of driving passengers to rather exotic
-                destinations. The project can be downloaded from my GitHub.
-              </CardText>
-              <CardActions border>
-                <a
-                  href="https://github.com/MirceaTheHacker/Crazy-Taxi-Drive-2D"
-                  rel="noopener noreferrer"
-                  target="_blank"
+                  Crazy Taxi Drive
+                </CardTitle>
+                <CardText style={{ height: "8em" }}>
+                  A 2D game made in Unity with a team of two developers where
+                  you are in control of driving passengers to rather exotic
+                  destinations. The project can be downloaded from my GitHub.
+                </CardText>
+                {/* <div
+                  style={{
+                    // width: "960px",
+                    // height: "600px",
+                    textAlign: "center",
+                    // padding: "5em",
+                    alignSelf: "center"
+                  }}
                 >
-                  <Button colored>GitHub</Button>
-                </a>
-                <a
-                  href="https://mateimircea.itch.io/crazy-taxi-drive"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <Button colored>Live Demo</Button>
-                </a>
-              </CardActions>
-            </Card>
+                  <Game />
+                </div> */}
+                <CardActions border>
+                  <a
+                    href="https://github.com/MirceaTheHacker/Crazy-Taxi-Drive-2D"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <Button colored>GitHub</Button>
+                  </a>
+                  <a
+                    href="https://mateimircea.itch.io/crazy-taxi-drive"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <Button colored>Live Demo</Button>
+                  </a>
+                </CardActions>
+              </Card>
+            </div>
           </div>
         );
       case 1:

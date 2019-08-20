@@ -37,7 +37,7 @@
   padding: 10px;
 }
 
-@media only screen and (min-width: 1240px) {
+@media only screen and (min-width: 840px) {
   .avatar-img {
     height: 80vh;
     padding-top: 6vh;
@@ -106,7 +106,7 @@
   }
 }
 
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 840px) {
   .banner-text h1 {
     font-size: 7vw;
     font-weight: bold;
