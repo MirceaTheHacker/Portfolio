@@ -222,11 +222,12 @@ class Projects extends Component {
 
   render() {
     return (
-      <div style={{ paddingTop: "5vh" }}>
+      <div>
         <Tabs
           activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
+          style={{ paddingTop: "5vh" }}
         >
           <Tab>
             <div className="project-tab">Unity</div>
