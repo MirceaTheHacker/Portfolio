@@ -9,15 +9,19 @@ class Resume extends Component {
   render() {
     return (
       <div>
-        <Grid>
+        <Grid style={{ background: "white" }}>
           <Cell col={4}>
             <div
-              style={{ textAllign: "left", allign: "left", paddingLeft: "0px" }}
+              style={{
+                textAllign: "left",
+                allign: "left",
+                paddingLeft: "0px"
+              }}
             >
               <img
                 src={picCircled}
                 alt="avatar"
-                style={{ height: "40vw", allign: "left", paddingLeft: "0px" }}
+                style={{ width: "100%", allign: "left", paddingLeft: "0px" }}
               />
             </div>
             <h2 style={{ paddingTop: "0px" }}>Matei Mircea</h2>

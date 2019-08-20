@@ -6,12 +6,8 @@ class Skills extends Component {
     return (
       <Grid>
         <Cell col={12}>
-          <div style={{ display: "flex", flexWrap: "nowrap" }}>
-            <span
-              style={{ width: "30%", fontWeight: "bold", fontSize: "1.5em" }}
-            >
-              {this.props.skill}
-            </span>
+          <div className="skill">
+            <span>{this.props.skill}</span>
             <ProgressBar
               style={{
                 width: "70%",
