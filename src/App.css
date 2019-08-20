@@ -79,6 +79,31 @@
     font-weight: bold;
     font-size: 2vw;
   }
+  .card {
+    min-width: 450px;
+    margin: auto;
+    display: flex;
+    margin-top: 5em;
+  }
+  .contact-grid img {
+    width: 30vw;
+  }
+  .contact-list-item-content {
+    font-size: 2vw;
+    font-family: Anton;
+    justify-content: left;
+    display: inline;
+  }
+  .contact-list-item-content i {
+    font-size: 5vw;
+    float: left;
+  }
+
+  .contact-list span {
+    padding-top: 0;
+    overflow: visible;
+    text-align: left;
+  }
 }
 
 @media only screen and (max-width: 1240px) {
@@ -123,6 +148,34 @@
     font-weight: bold;
     font-size: 4vw;
   }
+
+  .card {
+    min-width: 100vw;
+    margin: auto;
+    display: flex;
+    margin-top: 5em;
+  }
+
+  .contact-grid img {
+    width: 75vw;
+  }
+
+  .contact-list-item-content {
+    font-size: 4vw;
+    font-family: Anton;
+    justify-content: left;
+    display: inline;
+  }
+  .contact-list-item-content i {
+    font-size: 10vw;
+    float: left;
+  }
+
+  .contact-list span {
+    padding-top: 0;
+    overflow: visible;
+    text-align: left;
+  }
 }
 
 .banner-text hr {
@@ -142,18 +195,18 @@
 }
 .contact-body {
   margin: auto;
-  position: fixed;
   width: 100%;
   height: 100%;
   justify-content: center;
-  padding-top: 2em;
+  padding-top: 8vh;
 }
 
 .contact-grid {
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: center;
   width: 80%;
-  height: 550px;
   background: white;
   color: black;
   margin-bottom: 20px;
@@ -176,7 +229,9 @@
 
 .contact-list i {
   font-size: 66px;
-  padding-right: 5rem;
+  padding-right: 2vw;
+
+  text-align: left;
 }
 
 /*resume page css */
@@ -215,5 +270,9 @@ body {
 
 .skill {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: flex-end;
+}
+
+.project-tab {
+  color: white;
 }

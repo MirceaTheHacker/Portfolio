@@ -25,23 +25,16 @@ class Projects extends Component {
             className="projects-grid"
             style={{
               display: "flex",
+              flexWrap: "wrap",
               textAlign: "center",
               marginLeft: "auto",
               marginRight: "auto",
               justifyContent: "center",
-              width: "50%"
+              width: "75%"
             }}
           >
             {/*Unity Project #1 */}
-            <Card
-              shadow={5}
-              style={{
-                minWidth: "450px",
-                margin: "auto",
-                display: "flex",
-                marginTop: "5em"
-              }}
-            >
+            <Card shadow={5} className="card">
               <CardTitle
                 style={{
                   color: "#fff",
@@ -77,15 +70,7 @@ class Projects extends Component {
               </CardActions>
             </Card>
             {/*Unity Project #2 */}
-            <Card
-              shadow={5}
-              style={{
-                minWidth: "450px",
-                margin: "auto",
-                display: "flex",
-                marginTop: "5em"
-              }}
-            >
+            <Card shadow={5} className="card">
               <CardTitle
                 style={{
                   color: "#fff",
@@ -134,15 +119,7 @@ class Projects extends Component {
             }}
           >
             {/*Android Studio Project #1 */}
-            <Card
-              shadow={5}
-              style={{
-                minWidth: "450px",
-                margin: "auto",
-                display: "flex",
-                marginTop: "5em"
-              }}
-            >
+            <Card shadow={5} className="card">
               <CardTitle
                 style={{
                   color: "#fff",
@@ -186,15 +163,7 @@ class Projects extends Component {
             }}
           >
             {/*Python Project #1 */}
-            <Card
-              shadow={5}
-              style={{
-                minWidth: "450px",
-                margin: "auto",
-                display: "flex",
-                marginTop: "5em"
-              }}
-            >
+            <Card shadow={5} className="card">
               <CardTitle
                 style={{
                   textAlign: "left",
@@ -253,15 +222,21 @@ class Projects extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{ paddingTop: "5vh" }}>
         <Tabs
           activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>Unity</Tab>
-          <Tab>Android Studio</Tab>
-          <Tab>Python</Tab>
+          <Tab>
+            <div className="project-tab">Unity</div>
+          </Tab>
+          <Tab>
+            <div className="project-tab">Android Studio</div>
+          </Tab>
+          <Tab>
+            <div className="project-tab">Python</div>Python
+          </Tab>
         </Tabs>
 
         <Grid>
