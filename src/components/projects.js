@@ -10,7 +10,7 @@ import {
   Button,
   CardText
 } from "react-mdl";
-// import Game from "./game";
+import Game from "./game";
 
 class Projects extends Component {
   constructor(props) {
@@ -113,6 +113,13 @@ class Projects extends Component {
                     target="_blank"
                   >
                     <Button colored>Live Demo</Button>
+                  </a>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.MirceaMatei.CrazyTaxiDriver"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <Button colored>GOOGLE PLAY</Button>
                   </a>
                 </CardActions>
               </Card>
