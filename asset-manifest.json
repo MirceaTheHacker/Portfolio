@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/github.io-me/static/css/main.3b4da8b2.chunk.css",
-    "main.js": "/github.io-me/static/js/main.f3d1f3cf.chunk.js",
-    "main.js.map": "/github.io-me/static/js/main.f3d1f3cf.chunk.js.map",
-    "runtime~main.js": "/github.io-me/static/js/runtime~main.85e0cea1.js",
-    "runtime~main.js.map": "/github.io-me/static/js/runtime~main.85e0cea1.js.map",
-    "static/css/2.09c99515.chunk.css": "/github.io-me/static/css/2.09c99515.chunk.css",
-    "static/js/2.5f168fa7.chunk.js": "/github.io-me/static/js/2.5f168fa7.chunk.js",
-    "static/js/2.5f168fa7.chunk.js.map": "/github.io-me/static/js/2.5f168fa7.chunk.js.map",
-    "index.html": "/github.io-me/index.html",
-    "precache-manifest.590d3d4902ad2d3e379264cfd07a0b35.js": "/github.io-me/precache-manifest.590d3d4902ad2d3e379264cfd07a0b35.js",
-    "service-worker.js": "/github.io-me/service-worker.js",
-    "static/css/2.09c99515.chunk.css.map": "/github.io-me/static/css/2.09c99515.chunk.css.map",
-    "static/css/main.3b4da8b2.chunk.css.map": "/github.io-me/static/css/main.3b4da8b2.chunk.css.map",
-    "static/media/picCircled.png": "/github.io-me/static/media/picCircled.7ae328e9.png"
+    "main.css": "/Portfolio/static/css/main.7d659a02.chunk.css",
+    "main.js": "/Portfolio/static/js/main.a2f894a3.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.a2f894a3.chunk.js.map",
+    "runtime~main.js": "/Portfolio/static/js/runtime~main.e1f91374.js",
+    "runtime~main.js.map": "/Portfolio/static/js/runtime~main.e1f91374.js.map",
+    "static/css/2.60a6b8e0.chunk.css": "/Portfolio/static/css/2.60a6b8e0.chunk.css",
+    "static/js/2.5f168fa7.chunk.js": "/Portfolio/static/js/2.5f168fa7.chunk.js",
+    "static/js/2.5f168fa7.chunk.js.map": "/Portfolio/static/js/2.5f168fa7.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.a549580dc7f7f080a6b72eca0f186d40.js": "/Portfolio/precache-manifest.a549580dc7f7f080a6b72eca0f186d40.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/2.60a6b8e0.chunk.css.map": "/Portfolio/static/css/2.60a6b8e0.chunk.css.map",
+    "static/css/main.7d659a02.chunk.css.map": "/Portfolio/static/css/main.7d659a02.chunk.css.map",
+    "static/media/picCircled.png": "/Portfolio/static/media/picCircled.7ae328e9.png"
   }
 }
