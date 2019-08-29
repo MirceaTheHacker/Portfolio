@@ -29,7 +29,7 @@ function App() {
           >
             <Navigation>
               <Link
-                basename={process.env.PUBLIC_URL}
+                basename="/Portfolio"
                 to="/resume"
                 className="nav-bar"
                 style={{ fontSize: "2em" }}
