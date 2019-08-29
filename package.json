@@ -2,7 +2,7 @@
   "name": "myportfoliowebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mirceathehacker.github.io/github.io-me/",
+  "homepage": "https://mirceathehacker.github.io/Portfolio/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
