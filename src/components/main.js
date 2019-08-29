@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { BrowserRouter as Switch, Route } from "react-router-dom";
 
 import LandingPage from "./landingPage";
 import AboutMe from "./aboutme";
