@@ -6,14 +6,13 @@ import { Link, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename="/Portfolio">
       <div>
         <Layout>
           <Header
             className="header-color"
             title={
               <Link
-                basename={process.env.PUBLIC_URL}
                 className="nav-bar"
                 style={{
                   textDecoration: "none",
@@ -29,7 +28,6 @@ function App() {
           >
             <Navigation>
               <Link
-                basename="/Portfolio"
                 to="/resume"
                 className="nav-bar"
                 style={{ fontSize: "2em" }}
