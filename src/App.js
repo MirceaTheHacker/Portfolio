@@ -2,11 +2,11 @@ import React from "react";
 import "./App.css";
 import { Layout, Header, Navigation, Content, Drawer } from "react-mdl";
 import Main from "./components/main";
-import { Link, BrowserRouter } from "react-router-dom";
+import { Link, HashRouter } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter basename="/Portfolio">
+    <HashRouter basename="/Portfolio">
       <div>
         <Layout>
           <Header
@@ -73,7 +73,7 @@ function App() {
           </Content>
         </Layout>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
