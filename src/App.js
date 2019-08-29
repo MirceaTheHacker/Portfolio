@@ -13,6 +13,7 @@ function App() {
             className="header-color"
             title={
               <Link
+                basename={process.env.PUBLIC_URL}
                 className="nav-bar"
                 style={{
                   textDecoration: "none",
@@ -28,7 +29,7 @@ function App() {
           >
             <Navigation>
               <Link
-                // basename={process.env.PUBLIC_URL}
+                basename={process.env.PUBLIC_URL}
                 to="/resume"
                 className="nav-bar"
                 style={{ fontSize: "2em" }}
