@@ -104,6 +104,12 @@
     overflow: visible;
     text-align: left;
   }
+
+  .project-tab {
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
+  }
 }
 
 @media only screen and (max-width: 840px) {
@@ -175,6 +181,12 @@
     padding-top: 0;
     overflow: visible;
     text-align: left;
+  }
+
+  .project-tab {
+    color: white;
+    font-weight: bold;
+    font-size: 2vh;
   }
 }
 
@@ -271,10 +283,4 @@ body {
 .skill {
   display: flex;
   flex-wrap: flex-end;
-}
-
-.project-tab {
-  color: white;
-  font-weight: bold;
-  font-size: 2vh;
 }

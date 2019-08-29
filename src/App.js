@@ -24,7 +24,6 @@ function App() {
                 My portfolio
               </Link>
             }
-            scroll
           >
             <Navigation>
               <Link

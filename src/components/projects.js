@@ -257,7 +257,7 @@ class Projects extends Component {
             <div className="project-tab">Android Studio</div>
           </Tab>
           <Tab>
-            <div className="project-tab">Python</div>Python
+            <div className="project-tab">Python</div>
           </Tab>
         </Tabs>
 
