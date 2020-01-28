@@ -1,0 +1,286 @@
+.header-color {
+  background: #1d4350; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a43931,
+    #1d4350
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a43931,
+    #1d4350
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  border: 1px solid black;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.landing-grid {
+  background: #1d4350; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a43931,
+    #1d4350
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a43931,
+    #1d4350
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  top: 0;
+  left: 0;
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 840px) {
+  .avatar-img {
+    height: 80vh;
+    padding-top: 6vh;
+  }
+  .banner-text h1 {
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+  }
+  .banner-text p {
+    width: 90%;
+    margin: auto;
+    color: white;
+    font-size: 2em;
+    padding: 1vw;
+    padding-right: 2em;
+    line-height: 1em;
+  }
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    font-size: 2vw;
+  }
+  .banner-text {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    opacity: 0.8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 16vh;
+  }
+  .skill span {
+    width: 30%;
+    font-weight: bold;
+    font-size: 2vw;
+  }
+  .card {
+    min-width: 450px;
+    margin: auto;
+    display: flex;
+    margin-top: 5em;
+  }
+  .contact-grid img {
+    width: 30vw;
+  }
+  .contact-list-item-content {
+    font-size: 2vw;
+    font-family: Anton;
+    justify-content: left;
+    display: inline;
+  }
+  .contact-list-item-content i {
+    font-size: 5vw;
+    float: left;
+  }
+
+  .contact-list span {
+    padding-top: 0;
+    overflow: visible;
+    text-align: left;
+  }
+
+  .project-tab {
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .banner-text h1 {
+    font-size: 7vw;
+    font-weight: bold;
+    color: white;
+  }
+  .avatar-img {
+    height: 60vw;
+    padding-top: 6vw;
+  }
+  .banner-text p {
+    width: 90%;
+    margin: auto;
+    color: white;
+    font-size: 3vw;
+    padding: 1vw;
+    padding-right: 2em;
+    line-height: 1em;
+  }
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    font-size: 2vw;
+  }
+
+  .banner-text {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    opacity: 0.8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .skill span {
+    width: 30%;
+    font-weight: bold;
+    font-size: 4vw;
+  }
+
+  .card {
+    min-width: 100vw;
+    margin: auto;
+    display: flex;
+    margin-top: 5em;
+  }
+
+  .contact-grid img {
+    width: 75vw;
+  }
+
+  .contact-list-item-content {
+    font-size: 4vw;
+    font-family: Anton;
+    justify-content: left;
+    display: inline;
+  }
+  .contact-list-item-content i {
+    font-size: 10vw;
+    float: left;
+  }
+
+  .contact-list span {
+    padding-top: 0;
+    overflow: visible;
+    text-align: left;
+  }
+
+  .project-tab {
+    color: white;
+    font-weight: bold;
+    font-size: 2vh;
+  }
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.projects-grid {
+  display: flex;
+}
+.contact-body {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 8vh;
+}
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: "Anton", sans-serif;
+}
+
+.contact-grid p {
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 2vw;
+
+  text-align: left;
+}
+
+/*resume page css */
+.resume-right-col {
+  background: #27221f;
+  color: white;
+  padding: 2em;
+}
+
+.nav-bar {
+  font-family: "Anton";
+  font-size: 50px;
+}
+
+.body {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+  overflow: scroll;
+}
+
+body {
+  background: #1d4350; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a43931,
+    #1d4350
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a43931,
+    #1d4350
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.skill {
+  display: flex;
+  flex-wrap: flex-end;
+}
