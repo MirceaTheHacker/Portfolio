@@ -67,7 +67,7 @@ class Resume extends Component {
               jobLocation="Bucharest, Romania"
               jobDescription="I collaborated with my team on an outsourcing project in which we built a small but robust 3D 3rd person war simulator,
               getting a chance to get a good grasp on the way my coworkers code.
-              Although the prototype got finished one month prior to my arrival, I had the chance to learn and help with quite some features.
+              Although the prototype got finished one month after my arrival, I had the chance to learn and help with quite some features.
               The biggest impact I made on this project must have been on the audio side. Albeit there was a sound queue manager in place when I got there,
               it was not doing much good. The sounds were cutting out as soon as the priority queue would get busy (i.e. when many guns got shot at the same time).
               By prioritizing the sounds made by the main character and overriding less important sounds only when a sound with high priority would get triggered,
