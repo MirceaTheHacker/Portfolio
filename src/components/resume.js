@@ -132,8 +132,7 @@ class Resume extends Component {
             <Skills skill="Design Patterns" progress={80} />
             <Skills skill="Data Structures" progress={70} />
             <Skills skill="Adobe Photoshop" progress={30} />
-            <Skills skill="SQL" progress={45} />
-            <Skills skill="PL/SQL" progress={45} />
+            <Skills skill="Git" progress={85} />
 
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Voluteer Experience</h2>
