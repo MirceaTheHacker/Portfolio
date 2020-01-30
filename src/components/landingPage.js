@@ -15,7 +15,7 @@ class Landing extends Component {
               <h1>Software Developer</h1>
               <hr />
               <p>
-                Unity 3D | C# | C++ | React
+                Unity 3D | C# | C++ | React | Git
               </p>
               <div className="social-links">
                 {/* LinkedIn */}
