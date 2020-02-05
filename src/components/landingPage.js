@@ -3,12 +3,28 @@ import { Grid, Cell } from "react-mdl";
 import picCircled from "../images/pic_circled_1MB.png";
 
 class Landing extends Component {
+  constructor(props){
+    super(props);
+    this.state = { imageStatus: "loading"}
+  }
+
+  handleImageLoaded() {
+    this.setState({ imageStatus: "loaded" });
+  }
+
+  handleImageErrored() {
+    this.setState({ imageStatus: "failed to load" });
+  }
+
   render() {
     return (
       <div>
         <Grid className="landing-grid">
           <Cell col={6}>
-            <img src={picCircled} alt="avatar" className="avatar-img" />
+            <img src={picCircled}
+            onLoad={this.handleImageLoaded.bind(this)}
+            onError={this.handleImageErrored.bind(this)}
+            alt="avatar" className="avatar-img" />
           </Cell>
           <Cell col={6}>
             <div className="banner-text">
