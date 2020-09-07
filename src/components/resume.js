@@ -56,7 +56,7 @@ class Resume extends Component {
               jobName="C++ Developer"
               jobCompany="Atypical Games S.R.L."
               jobLocation="Bucharest, Romania"
-              jobDescription="This is my second title within this company and with it I had to switch from Unity to a proprietary engine. The downside to this is that I am no longer able to quickly search online for a solution to any minor inconvenience. This time around, if something is not working the way it is supposed to, I have to figure it out on my own or ask my colleagues. Fortunately, my team is always helping me out whenever I need their help. The project that I am currently working on is a 3D  game and it has been in production for quite some time now. I am not to disclose any details about it, I may however detail on the features that I am working on. After I learned my way around the engine I have been tasked to make different game modes, which proved to be rather creative, fun and a really great way of learning the project as well. Then I worked on the UI. I did not liked this at first, because I was used with the interface from Unity and this time around I would have to map every sprite from code, which proved to be really difficult at times, but I like a good challenge. When I got done with that, I kept on working on different features and fixed bugs."
+              jobDescription="This is my second title within this company and with it I had to switch from Unity to a proprietary engine. The projects that I am working on are 3D hybrids between regular games and a simulators. The features I recently worked on vary from the implementation of AI commands to algorithms for procedurally generating trees. Every week I work here I am tasked with different challenges and figuring out their solution helps me learn a lot. I also work on UI/UX and Game Design every now and then."
               jobHref="https://www.atypicalgames.com/"
            />
             <Experience
@@ -65,15 +65,7 @@ class Resume extends Component {
               jobName="Unity 3D Developer"
               jobCompany="Atypical Games S.R.L."
               jobLocation="Bucharest, Romania"
-              jobDescription="I collaborated with my team on an outsourcing project in which we built a small but robust 3D 3rd person war simulator,
-              getting a chance to get a good grasp on the way my coworkers code.
-              Although the prototype got finished one month after my arrival, I had the chance to learn and help with quite some features.
-              The biggest impact I made on this project must have been on the audio side. Albeit there was a sound queue manager in place when I got there,
-              it was not doing much good. The sounds were cutting out as soon as the priority queue would get busy (i.e. when many guns got shot at the same time).
-              By prioritizing the sounds made by the main character and overriding less important sounds only when a sound with high priority would get triggered,
-              the audio experience turned swiftly from an unintelligible mixture of constantly overriding each other sounds to something pleasant and satisfying.
-              I topped that with a bunch of 3D rolloff tweaking and mapped a bunch of sounds based on the material type stepped on. While I was not working on the
-              sound I was mostly fixing bugs and tweaking the UI (which is a pleasure to do in Unity due to the easy to use and intuitive interface)."
+              jobDescription="I collaborated with my team on an outsourcing project in which we built a small but robust 3D 3rd person war simulator, getting a chance to get a good grasp on the way my coworkers code. The biggest impact I made on this project must have been on the audio side. Albeit there was a sound queue manager in place when I got there, it was not doing much good. The sounds were cutting out as soon as the priority queue would get busy (i.e. when many guns got shot at the same time). By prioritizing the sounds made by the main character and overriding less important sounds only when a sound with high priority would get triggered, the audio experience turned swiftly from an unintelligible mixture of constantly overriding each other sounds to something pleasant and satisfying. While I was not working on the sound I was mostly fixing bugs and tweaking the UI (which is a pleasure to do in Unity due to the easy to use and intuitive interface)."
             />
             <Experience
               startYear={"JUL2018"}
