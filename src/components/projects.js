@@ -215,14 +215,14 @@ class Projects extends Component {
               </CardText>
               <CardActions border>
                 <a
-                  href="https://drive.google.com/file/d/11_gh4bDtUGbW-yQYiBrMPnAxhqBwmnDM/view"
+                  href="https://drive.google.com/file/d/1M6RLhFZzKDXeyNgSG9wi8M-TGIFrd0gu/view?usp=sharing"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <Button colored>DOWNLOAD</Button>
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1GZLV-TEptbAsuFdAqTvi_Isxq1ynHNv9/view"
+                  href="https://drive.google.com/file/d/1n48Awj9y2E58_R9T3-RHxlCkD5vaDHH7/view?usp=sharing"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
