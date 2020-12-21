@@ -68,6 +68,15 @@ class Resume extends Component {
               jobDescription="I collaborated with my team on an outsourcing project in which we built a small but robust 3D 3rd person war simulator, getting a chance to get a good grasp on the way my coworkers code. The biggest impact I made on this project must have been on the audio side. Albeit there was a sound queue manager in place when I got there, it was not doing much good. The sounds were cutting out as soon as the priority queue would get busy (i.e. when many guns got shot at the same time). By prioritizing the sounds made by the main character and overriding less important sounds only when a sound with high priority would get triggered, the audio experience turned swiftly from an unintelligible mixture of constantly overriding each other sounds to something pleasant and satisfying. While I was not working on the sound I was mostly fixing bugs and tweaking the UI (which is a pleasure to do in Unity due to the easy to use and intuitive interface)."
             />
             <Experience
+              startYear={"OCT2018"}
+              endYear={"Present"}
+              jobName="Full stack contributor"
+              jobCompany="colonist.io"
+              jobLocation="Remote"
+              jobDescription="Wanted to improve my web development skills while helping a company whose game I enjoy. Ended up learning a lot more than I anticipated about Typescript, NodeJS, Docker, AJAX and WSL. In order to get a better hold of the project I've been given the task to create a fun new map. I chose to make a map in the shape of my country (i.e. Romania) and respect the geographical topology by using Ore hexes where the Carpathian Mountain Chain is at, creating the first map in their repertoire with an accurate topology. After working on an algorithm for randomizing the map tiles and fixing some bugs, I dedicated some time towards helping the other developers who had issues setting up the environment on Windows. This project is optimized to run on Linux and because of that there are plenty of issues one has to face in order to get it to run properly on Windows. I ended up finding a solution that would get the best of both worlds: have the IDE on Windows, but run the whole project inside WSL (i.e. Windows Subsystem for Linux). This way the interface the programmer interacts with the code remains the same, but the code runs on the Linux kernel."
+              jobHref="https://colonist.io/"
+            />
+            <Experience
               startYear={"JUL2018"}
               endYear={"OCT2018"}
               jobName="Communications Professional"
