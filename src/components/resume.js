@@ -73,7 +73,12 @@ class Resume extends Component {
               jobName="Full stack contributor"
               jobCompany="colonist.io"
               jobLocation="Remote"
-              jobDescription="Wanted to improve my web development skills while helping a company whose game I enjoy. Ended up learning a lot more than I anticipated about Typescript, NodeJS, Docker, AJAX and WSL. In order to get a better hold of the project I've been given the task to create a fun new map. I chose to make a map in the shape of my country (i.e. Romania) and respect the geographical topology by using Ore hexes where the Carpathian Mountain Chain is at, creating the first map in their repertoire with an accurate topology. After working on an algorithm for randomizing the map tiles and fixing some bugs, I dedicated some time towards helping the other developers who had issues setting up the environment on Windows. This project is optimized to run on Linux and because of that there are plenty of issues one has to face in order to get it to run properly on Windows. I ended up finding a solution that would get the best of both worlds: have the IDE on Windows, but run the whole project inside WSL (i.e. Windows Subsystem for Linux). This way the interface the programmer interacts with the code remains the same, but the code runs on the Linux kernel."
+              jobDescription="Wanted to improve my web development skills while helping a company whose game I enjoy. Ended up learning a lot more than I anticipated about Typescript
+              , NodeJS, Docker, AJAX and WSL. In order to get a better hold of the project I've been given the task to create a new and fun map. I chose to make a map in the shape of my country
+               (i.e. Romania) and respect the geographical topology by using Ore hexes where the Carpathian Mountain Chain is at, creating the first map in their repertoire with this feature. After working on an algorithm for randomizing the map tiles and fixing some bugs, I dedicated some time towards helping the other developers who had issues setting
+                 up the environment on Windows. This project is optimized to run on Linux and because of that there are plenty of issues one has to face in order to get it to run properly on
+                  Windows. I ended up finding a solution that would get the best of both worlds: have the IDE on Windows, but run the whole project inside WSL (i.e. Windows Subsystem for Linux).
+                   This way the interface the programmer interacts with the code remains the same, but the code runs on the Linux kernel."
               jobHref="https://colonist.io/"
             />
             <Experience
