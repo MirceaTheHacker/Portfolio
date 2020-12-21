@@ -60,7 +60,7 @@ class Resume extends Component {
               jobHref="https://www.atypicalgames.com/"
            />
             <Experience
-              startYear={"OCT2018"}
+              startYear={"OCT2019"}
               endYear={"NOV2019"}
               jobName="Unity 3D Developer"
               jobCompany="Atypical Games S.R.L."
@@ -68,7 +68,7 @@ class Resume extends Component {
               jobDescription="I collaborated with my team on an outsourcing project in which we built a small but robust 3D 3rd person war simulator, getting a chance to get a good grasp on the way my coworkers code. The biggest impact I made on this project must have been on the audio side. Albeit there was a sound queue manager in place when I got there, it was not doing much good. The sounds were cutting out as soon as the priority queue would get busy (i.e. when many guns got shot at the same time). By prioritizing the sounds made by the main character and overriding less important sounds only when a sound with high priority would get triggered, the audio experience turned swiftly from an unintelligible mixture of constantly overriding each other sounds to something pleasant and satisfying. While I was not working on the sound I was mostly fixing bugs and tweaking the UI (which is a pleasure to do in Unity due to the easy to use and intuitive interface)."
             />
             <Experience
-              startYear={"OCT2019"}
+              startYear={"OCT2020"}
               endYear={"Present"}
               jobName="Full stack contributor"
               jobCompany="colonist.io"
