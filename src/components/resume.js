@@ -51,6 +51,15 @@ class Resume extends Component {
 
             <h2>Work Experience</h2>
             <Experience
+              startYear={"MAY2021"}
+              endYear={"Present"}
+              jobName="Unity Developer"
+              jobCompany="SuperPlay"
+              jobLocation="Bucharest, Romania"
+              jobDescription="Unity consultancy and feature integration on Dice Dreams."
+              jobHref="https://www.superplay.co/"
+           />
+            <Experience
               startYear={"NOV2019"}
               endYear={"MAY2021"}
               jobName="C++ Developer"
