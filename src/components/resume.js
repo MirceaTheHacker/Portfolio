@@ -69,7 +69,7 @@ class Resume extends Component {
             />
             <Experience
               startYear={"OCT2020"}
-              endYear={"Present"}
+              endYear={"DEC2020"}
               jobName="Full stack contributor"
               jobCompany="colonist.io"
               jobLocation="Remote"
