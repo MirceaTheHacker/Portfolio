@@ -52,7 +52,7 @@ class Resume extends Component {
             <h2>Work Experience</h2>
             <Experience
               startYear={"NOV2019"}
-              endYear={"Present"}
+              endYear={"MAY2021"}
               jobName="C++ Developer"
               jobCompany="Atypical Games S.R.L."
               jobLocation="Bucharest, Romania"
